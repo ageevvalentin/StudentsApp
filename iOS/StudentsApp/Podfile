@@ -1,0 +1,16 @@
+platform :ios, '11.0'
+
+target 'StudentsApp' do
+  use_frameworks!
+
+  pod 'Commons', :path => '../../Commons'
+
+  target 'StudentsAppTests' do
+    inherit! :search_paths
+  end
+
+  target 'StudentsAppUITests' do
+    inherit! :search_paths
+  end
+
+end
