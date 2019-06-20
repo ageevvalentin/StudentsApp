@@ -1,6 +1,3 @@
-import org.gradle.api.artifacts.dsl.DependencyHandler
-import org.gradle.kotlin.dsl.kotlin
-
 object Dependencies {
     object BuildPlugin {
         const val Kotlin =
