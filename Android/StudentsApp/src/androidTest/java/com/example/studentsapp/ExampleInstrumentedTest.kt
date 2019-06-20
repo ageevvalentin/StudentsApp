@@ -1,4 +1,4 @@
-package com.example.studentsapp1
+package com.example.studentsapp
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
