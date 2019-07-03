@@ -29,6 +29,11 @@ android {
             )
         }
     }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -36,6 +41,16 @@ dependencies {
 
     implementation(Dependencies.AndroidX.AppCompat)
     implementation(Dependencies.AndroidX.Core)
+    implementation(Dependencies.AndroidX.KTX.Core)
+    implementation(Dependencies.AndroidX.Activity)
+    implementation(Dependencies.AndroidX.KTX.Activity)
+    implementation(Dependencies.AndroidX.Fragment)
+    implementation(Dependencies.AndroidX.KTX.Fragment)
+    implementation(Dependencies.AndroidX.RecyclerView)
+
+
+    implementation(Dependencies.DI.Kodein.Core)
+    implementation(Dependencies.DI.Kodein.AndroidX)
 
     testImplementation(Dependencies.Test.JUnit)
     androidTestImplementation(Dependencies.Test.Runner)

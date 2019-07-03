@@ -12,8 +12,15 @@ object Versions {
     }
 
     object AndroidX {
-        const val Core = "1.0.2"
-        const val AppCompat = "1.0.2"
+        const val Core = "1.2.0-alpha02"
+        const val AppCompat = "1.1.0-rc01"
+        const val Activity = "1.1.0-alpha01"
+        const val Fragment = "1.2.0-alpha01"
+        const val RecyclerView = "1.1.0-beta01"
+    }
+
+    object DI {
+        const val Kodein = "6.3.2"
     }
 
     object Test {
